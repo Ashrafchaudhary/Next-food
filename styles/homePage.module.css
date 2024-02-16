@@ -73,3 +73,27 @@
     margin: 2rem auto;
     text-align: center;
 }
+
+@media (max-width: 767px) {
+    /* Add mobile-specific styles here */
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slideshow {
+        width: 100%; /* Set to 100% to take the full width */
+        height: 25rem;
+        display: flex;
+        align-items: center; /* Center vertically */
+        justify-content: center;
+    }
+
+    .hero {
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+}

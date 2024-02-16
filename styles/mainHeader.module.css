@@ -21,8 +21,6 @@
     font-size: 1.25rem;
 }
 
-
-
 .logo {
     display: flex;
     align-items: center;
@@ -42,4 +40,25 @@
     height: 5rem;
     object-fit: contain;
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+}
+
+@media (max-width: 767px) {
+    .logo {
+        gap: 1rem;
+        letter-spacing: 0.15rem;
+        font-size: 1rem;
+    }
+
+    .logo img {
+        width: 3rem;
+        height: 3rem;
+        object-fit: contain;
+        filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+    }
+
+    .nav ul {
+        margin-left: 1rem;
+        gap: 1rem;
+        font-size: 1rem;
+    }
 }
